@@ -1,0 +1,180 @@
+html{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin: 0;
+  height: 100vh;
+
+}
+
+.card{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 87%;
+ background-color: ;
+ /* z-index:1;*/
+ transition: background-color .5s;
+}
+
+.card{
+  transition-timing-function: ease-in;
+}
+
+
+.card p {
+  font-size: 15px;
+  line-height: 1.9;
+  margin-top: 30px;
+}
+
+.btn.btn-primary{
+  background-color:#991515;
+  border-color: black;
+  padding: 15px;
+  margin-left: 30%;
+  margin-top: 10%;
+  font-size: 20px;
+}
+
+.btn.btn-primary:hover{
+  background-color: white;
+  color: #991515 ;
+  opacity: 0.8;
+}
+
+/*.ytp-large-play-button{
+  display: none;
+}*/
+
+.ytp-large-play-button ytp-button{
+  display: none!important;
+}
+
+.ytp-large-play-button.ytp-button{
+  display: none!important;
+}
+
+
+.title{
+  text-align:center;
+  font-size: 55px;
+  color: #991515;
+  text-shadow: 1px 0px 2px black;
+  padding-bottom: 20px;
+}
+
+.album-cover{
+  /*position: absolute;*/
+width: 100%;
+height: auto;
+  /*margin-left: 100%;
+  margin-top: 20%;*/
+border:1px solid black ;
+border-radius: 2px;
+filter: drop-shadow(2px 2px 3px gray);
+}
+
+span{
+  color: #991515;
+}
+.pre-order{
+  margin-left: 25%;
+}
+
+.video{
+  height: 100%;
+  width:100vw;
+
+}
+
+
+
+/*.back{
+
+  background-size: cover;
+  background-image: url("images/shining-sign.jpg");
+
+  z-index: 0;
+  width: 100vw;
+  height: 100vh;
+}
+*/
+
+
+
+
+
+
+
+
+.nav {
+  display: flex;
+  position: sticky;
+ top: 0;
+ z-index: 1;
+ background-color: #272828;
+width: 100vw;
+justify-content: flex-end;
+height: 50px ;
+
+
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav li{
+  margin-right: 30px;
+  line-height: 2;
+  font-size: 19.5px;
+}
+.nav a{
+  color: #f9fbff;
+}
+
+.nav a:hover{
+  color:#8e0f0f;
+  opacity: 1;
+  text-decoration: none;
+}
+
+#player{
+  top:0;
+  position: fixed;
+  z-index: -1;
+/*  min-width:100%;*/
+}
+
+
+/*.banner{
+  position: relative;
+  color: green;
+  background-color: white;
+margin-top: 150%;
+}
+*/
+
+.pic{
+ /* filter: blur(1.5px);*/
+  width: 100%;
+  background-image: url("images/shining-sign.jpg");
+  background-attachment: fixed;
+  height: 100%;
+  background-size: cover;
+ z-index:0;
+}
+
+.box{
+  position: relative;
+
+
+}
+
+
+
+
+
